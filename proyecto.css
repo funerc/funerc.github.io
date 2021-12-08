@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+  color: #777;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, .3)
+}
+.header {
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url("imagenes/compostela3.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  
+}
+
+.nombre-portada {
+  text-align: center;
+  margin: 0;
+  font-size: 8em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+.parrafo-portada {
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+.imagen-portada {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+  background-color: gray;
+  
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+ 
+  margin: 0 auto;
+  
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.main-footer {
+  background-color: #56CCF2;
+  color: white;
+  padding: .25em 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 .5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+.tabla {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color:black;
+  font-size: large;
+}
+
+.tabla td, .tabla th {
+  border: 1px solid rgb(14, 13, 13);
+  padding: 8px;
+  color:black;
+  font-size: large;
+}
+
+.tabla tr:nth-child(even){background-color: #1054b9;}
+
+.tabla th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #068b5a;
+  color: rgb(39, 3, 3);
+}
+
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:black;
+}
+.label {
+  color:black;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+#mensaje {
+  text-align: center;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:black;
+}
+#boton {
+  background-color:white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+p {
+  color:black;
+}
+h2 {
+  color:black;
+}
+h3 {
+  color:black;
+  font-family: Helvetica;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.parrafo-tabla {
+  color:black;
+  font-weight: bold;
+  font-size: 25px;
+}
